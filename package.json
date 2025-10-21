@@ -1,0 +1,24 @@
+{
+  "name": "sprite-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.10.0",
+  "dependencies": {
+    "@allmaps/annotation": "1.0.0-beta.35",
+    "@allmaps/id": "1.0.0-beta.35",
+    "mkdirp": "^3.0.1",
+    "potpack": "^2.1.0",
+    "sharp": "^0.34.3"
+  },
+  "devDependencies": {
+    "@types/node": "^24.3.0"
+  }
+}
