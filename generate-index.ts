@@ -74,6 +74,7 @@ entries.sort((a, b) => {
 const listItems = entries
   .map((entry) => {
     const spriteUrl = `./${entry.annotationsId}/${entry.spriteWidth}/thumbnail-sprites.jpg`
+    const spriteInfoJson = `./${entry.annotationsId}/${entry.spriteWidth}/iiif/info.json`
     const annotationUrl = `./${entry.annotationsId}/${entry.spriteWidth}/thumbnail-sprites-annotation.json`
 
     return `      <li>
@@ -85,6 +86,7 @@ const listItems = entries
         )}">Open in Allmaps Viewer</a>
         <br>
         <a href="${spriteUrl}">Sprite Image</a> |
+        <a href="${spriteInfoJson}">Sprite Image</a> |
         <a href="${annotationUrl}">Sprite Georeference Annotation</a> |
         <a href="https://viewer.allmaps.org/?url=${encodeURIComponent(
           `https://pages.allmaps.org/sprite-test/${annotationUrl}`
