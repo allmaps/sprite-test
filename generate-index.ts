@@ -8,6 +8,9 @@ interface Entry {
   annotationsId: string
   spriteWidth: number
   annotationUrl: string
+  scaleFactors: number[]
+  imageWidth: number
+  imageHeight: number
 }
 
 const entries: Entry[] = []
@@ -52,11 +55,25 @@ for (const dirEntry of dirEntries) {
       subDir.name,
       'thumbnail-sprites-annotation.json'
     )
-    if (fs.existsSync(spritePath)) {
+    const infoJsonPath = path.join(
+      outputDir,
+      annotationsId,
+      subDir.name,
+      'iiif',
+      'info.json'
+    )
+
+    if (fs.existsSync(spritePath) && fs.existsSync(infoJsonPath)) {
+      const infoJson = JSON.parse(fs.readFileSync(infoJsonPath, 'utf-8'))
+      const scaleFactors = infoJson.tiles?.[0]?.scaleFactors || []
+
       entries.push({
         annotationsId,
         spriteWidth,
-        annotationUrl
+        annotationUrl,
+        scaleFactors,
+        imageWidth: infoJson.width || 0,
+        imageHeight: infoJson.height || 0
       })
     }
   }
@@ -86,11 +103,21 @@ const listItems = entries
         )}">Open in Allmaps Viewer</a>
         <br>
         <a href="${spriteUrl}">Sprite Image</a> |
-        <a href="${spriteInfoJson}">Sprite Image</a> |
+        <a href="${spriteInfoJson}">Sprite info.json</a> |
         <a href="${annotationUrl}">Sprite Georeference Annotation</a> |
         <a href="https://viewer.allmaps.org/?url=${encodeURIComponent(
           `https://pages.allmaps.org/sprite-test/${annotationUrl}`
         )}">Open in Allmaps Viewer</a>
+        <table>
+          <tr>
+            <th>Image Size</th>
+            <th>Scale Factors</th>
+          </tr>
+          <tr>
+            <td>${entry.imageWidth} × ${entry.imageHeight}</td>
+            <td>${entry.scaleFactors.join(', ')}</td>
+          </tr>
+        </table>
       </li>`
   })
   .join('\n')
@@ -124,6 +151,21 @@ const html = `<!DOCTYPE html>
       }
       a:hover {
         text-decoration: underline;
+      }
+      table {
+        margin-top: 0.5rem;
+        border-collapse: collapse;
+        width: 100%;
+        font-size: 0.9rem;
+      }
+      th, td {
+        text-align: left;
+        padding: 0.5rem;
+        border: 1px solid #ddd;
+      }
+      th {
+        background-color: #f5f5f5;
+        font-weight: 600;
       }
     </style>
   </head>
