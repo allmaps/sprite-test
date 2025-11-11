@@ -102,9 +102,10 @@ const listItems = entries
           `https://pages.allmaps.org/sprite-test/${entry.annotationUrl}`
         )}">Open in Allmaps Viewer</a>
         <br>
-        <a href="${spriteUrl}">Sprite Image</a> |
-        <a href="${spriteInfoJson}">Sprite info.json</a> |
-        <a href="${annotationUrl}">Sprite Georeference Annotation</a> |
+        Sprite:
+        <a href="${spriteUrl}">Image</a> |
+        <a href="${spriteInfoJson}">info.json</a> |
+        <a href="${annotationUrl}">Georeference Annotation</a> |
         <a href="https://viewer.allmaps.org/?url=${encodeURIComponent(
           `https://pages.allmaps.org/sprite-test/${annotationUrl}`
         )}">Open in Allmaps Viewer</a>
