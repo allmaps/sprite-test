@@ -55,9 +55,8 @@ type Box = {
   y: number
 }
 
-const boxes: Box[] = []
-
 for (const spriteWidth of spriteWidths) {
+  const boxes: Box[] = []
   for (const map of maps) {
     const imageId = map.resource.id
     const allmapsImageId = await generateId(imageId)
