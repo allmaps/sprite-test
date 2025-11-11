@@ -94,7 +94,7 @@ for (const spriteWidth of spriteWidths) {
 
   const { w: width, h: height } = potpack(boxes)
 
-  const spritesIiifImageId = `${githubPagesBaseUrl}/${annotationsId}/${spriteWidth}/`
+  const spritesIiifImageId = `${githubPagesBaseUrl}/${annotationsId}/${spriteWidth}`
 
   const sprites = await sharp({
     create: {
