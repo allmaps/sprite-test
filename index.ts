@@ -121,7 +121,7 @@ for (const spriteWidth of spriteWidths) {
     id: box.map.id,
     type: 'GeoreferencedMap',
     resource: {
-      id: path.join(spritesIiifImageId, 'iiif'),
+      id: `${spritesIiifImageId}/iiif`,
       width,
       height,
       type: 'ImageService3'
