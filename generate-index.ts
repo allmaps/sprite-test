@@ -32,7 +32,7 @@ for (const dirEntry of dirEntries) {
   // Get the original annotation URL from the stored file, or fallback to directory name
   let annotationUrl = annotations.id || annotations['@id']
   if (!annotationUrl || annotationUrl === annotationsId) {
-    annotationUrl = `annotations/${annotationsId}`
+    annotationUrl = `${annotationsId}/annotations.json`
   }
 
   // Find sprite width directories
@@ -79,7 +79,7 @@ const listItems = entries
     return `      <li>
         <strong>${entry.annotationsId}</strong> (width: ${entry.spriteWidth}px)
         <br>
-        Original: <a href="${entry.annotationUrl}.json">${entry.annotationUrl}.json</a>
+        Original: <a href="${entry.annotationUrl}">${entry.annotationUrl}</a>
         <br>
         <a href="${spriteUrl}">Sprite Image</a> |
         <a href="${annotationUrl}">Sprite Georeference Annotation</a>
@@ -92,7 +92,7 @@ const html = `<!DOCTYPE html>
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Sprite Test</title>
+    <title>Allmaps Thumbnail Sprite Test</title>
     <style>
       body {
         font-family: system-ui, -apple-system, sans-serif;
