@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/image/3/context.json",
-  "id": "http://127.0.0.1:8080/iiif",
+  "id": "https://pages.allmaps.org/sprite-test/0046a8c125f4a87b/128//iiif",
   "type": "ImageService3",
   "profile": "level0",
   "protocol": "http://iiif.io/api/image",

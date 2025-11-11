@@ -12,6 +12,8 @@ import {
   type GeoreferencedMap
 } from '@allmaps/annotation'
 
+const githubPagesBaseUrl = 'https://pages.allmaps.org/sprite-test'
+
 // Width of sprite images, in pixels
 const annotationUrl = process.argv[2]
 const spriteWidths = (process.argv[3] || '128')
@@ -31,6 +33,10 @@ await mkdirp(outputDir)
 let annotations
 if (!fs.existsSync(path.join(outputDir, 'annotations.json'))) {
   annotations = await fetch(annotationUrl).then((response) => response.json())
+  fs.writeFileSync(
+    path.join(outputDir, 'annotations.json'),
+    JSON.stringify(annotations, null, 2)
+  )
 } else {
   annotations = JSON.parse(
     fs.readFileSync(path.join(outputDir, 'annotations.json'), 'utf-8')
@@ -88,7 +94,7 @@ for (const spriteWidth of spriteWidths) {
 
   const { w: width, h: height } = potpack(boxes)
 
-  const spritesId = 'http://127.0.0.1:8080'
+  const spritesIiifImageId = `${githubPagesBaseUrl}/${annotationsId}/${spriteWidth}/`
 
   const sprites = await sharp({
     create: {
@@ -107,14 +113,15 @@ for (const spriteWidth of spriteWidths) {
     path.join(outputDir, String(spriteWidth), 'thumbnail-sprites.jpg')
   )
   await sprites
-    .tile({ size: 1024, layout: 'iiif3', id: spritesId, depth: 'one' })
+    .tile({ size: 1024, layout: 'iiif3', id: spritesIiifImageId, depth: 'one' })
     .toFile(path.join(outputDir, String(spriteWidth), 'iiif'))
 
   const newMaps = boxes.map((box) => ({
     '@context': 'https://schemas.allmaps.org/map/2/context.json',
+    id: box.map.id,
     type: 'GeoreferencedMap',
     resource: {
-      id: path.join(spritesId, 'iiif'),
+      id: path.join(spritesIiifImageId, 'iiif'),
       width,
       height,
       type: 'ImageService3'
