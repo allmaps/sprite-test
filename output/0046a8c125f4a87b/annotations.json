@@ -1,4 +1,5 @@
 {
+  "_sourceUrl": "https://raw.githubusercontent.com/tu-delft-heritage/watertijdreis-data/refs/heads/main/content/annotations/01-1874-389916-georef.json",
   "type": "AnnotationPage",
   "@context": "http://www.w3.org/ns/anno.jsonld",
   "items": [

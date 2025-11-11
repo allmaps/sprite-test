@@ -15,7 +15,7 @@ import {
 const githubPagesBaseUrl = 'https://pages.allmaps.org/sprite-test'
 
 // Width of sprite images, in pixels
-const annotationUrl = process.argv[2]
+const annotationsUrl = process.argv[2]
 const spriteWidths = (process.argv[3] || '128')
   .split(',')
   .map(Number)
@@ -25,23 +25,42 @@ function getSpriteUrl(imageId: string, width: number) {
   return `${imageId}/full/${width},/0/default.jpg`
 }
 
-const annotationsId = await generateId(annotationUrl)
+const annotationsId = await generateId(annotationsUrl)
 const outputDir = path.join('./output/', annotationsId)
 
 await mkdirp(outputDir)
 
 let annotations
 if (!fs.existsSync(path.join(outputDir, 'annotations.json'))) {
-  annotations = await fetch(annotationUrl).then((response) => response.json())
-  fs.writeFileSync(
-    path.join(outputDir, 'annotations.json'),
-    JSON.stringify(annotations, null, 2)
-  )
+  annotations = await fetch(annotationsUrl).then((response) => response.json())
 } else {
   annotations = JSON.parse(
     fs.readFileSync(path.join(outputDir, 'annotations.json'), 'utf-8')
   )
 }
+
+fs.writeFileSync(
+  path.join(outputDir, 'annotations.json'),
+  JSON.stringify(
+    {
+      _sourceUrl: annotationsUrl,
+      ...annotations
+    },
+    null,
+    2
+  )
+)
+
+fs.writeFileSync(
+  path.join(outputDir, 'meta.json'),
+  JSON.stringify(
+    {
+      sourceUrl: annotationsUrl
+    },
+    null,
+    2
+  )
+)
 
 const maps = parseAnnotation(annotations)
 
@@ -57,6 +76,7 @@ type Box = {
 
 for (const spriteWidth of spriteWidths) {
   const boxes: Box[] = []
+
   for (const map of maps) {
     const imageId = map.resource.id
     const allmapsImageId = await generateId(imageId)

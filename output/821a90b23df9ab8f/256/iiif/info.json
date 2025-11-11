@@ -1,0 +1,20 @@
+{
+  "@context": "http://iiif.io/api/image/3/context.json",
+  "id": "https://pages.allmaps.org/sprite-test/821a90b23df9ab8f/256/iiif",
+  "type": "ImageService3",
+  "profile": "level0",
+  "protocol": "http://iiif.io/api/image",
+  "tiles": [
+    {
+      "scaleFactors": [
+        1,
+        2,
+        4,
+        8
+      ],
+      "width": 1024
+    }
+  ],
+  "width": 5888,
+  "height": 6121
+}
