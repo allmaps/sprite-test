@@ -113,7 +113,12 @@ for (const spriteWidth of spriteWidths) {
     path.join(outputDir, String(spriteWidth), 'thumbnail-sprites.jpg')
   )
   await sprites
-    .tile({ size: 1024, layout: 'iiif3', id: spritesIiifImageId, depth: 'one' })
+    .tile({
+      size: 1024,
+      layout: 'iiif3',
+      id: spritesIiifImageId
+      // depth: 'one'
+    })
     .toFile(path.join(outputDir, String(spriteWidth), 'iiif'))
 
   const newMaps = boxes.map((box) => ({
