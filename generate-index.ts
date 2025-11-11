@@ -81,13 +81,13 @@ const listItems = entries
         <br>
         Original: <a href="${entry.annotationUrl}">${entry.annotationUrl}</a> |
         <a href="https://viewer.allmaps.org/?url=${encodeURIComponent(
-          entry.annotationUrl
+          `https://pages.allmaps.org/sprite-test/${entry.annotationUrl}`
         )}">Open in Allmaps Viewer</a>
         <br>
         <a href="${spriteUrl}">Sprite Image</a> |
         <a href="${annotationUrl}">Sprite Georeference Annotation</a> |
         <a href="https://viewer.allmaps.org/?url=${encodeURIComponent(
-          annotationUrl
+          `https://pages.allmaps.org/sprite-test/${annotationUrl}`
         )}">Open in Allmaps Viewer</a>
       </li>`
   })
