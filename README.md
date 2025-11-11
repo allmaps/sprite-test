@@ -10,3 +10,7 @@ Run:
 pnpm install
 node index.ts "https://raw.githubusercontent.com/tu-delft-heritage/watertijdreis-data/refs/heads/main/content/annotations/01-1874-389916-georef.json" 128,256,512
 ```
+
+```
+node generate-index.ts
+```
