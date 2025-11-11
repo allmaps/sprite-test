@@ -79,16 +79,16 @@ const listItems = entries
     return `      <li>
         <strong>${entry.annotationsId}</strong> (width: ${entry.spriteWidth}px)
         <br>
-        Original: <a href="${entry.annotationUrl}">${entry.annotationUrl}</a>
+        Original: <a href="${entry.annotationUrl}">${entry.annotationUrl}</a> |
         <a href="https://viewer.allmaps.org/?url=${encodeURIComponent(
           entry.annotationUrl
-        )}">Open original annotation in Allmaps Viewer</a>
+        )}">Open in Allmaps Viewer</a>
         <br>
         <a href="${spriteUrl}">Sprite Image</a> |
         <a href="${annotationUrl}">Sprite Georeference Annotation</a> |
         <a href="https://viewer.allmaps.org/?url=${encodeURIComponent(
           annotationUrl
-        )}">Open sprite annotation in Allmaps Viewer</a>
+        )}">Open in Allmaps Viewer</a>
       </li>`
   })
   .join('\n')
