@@ -8,6 +8,7 @@ interface Entry {
   annotationsId: string
   spriteWidth: number
   annotationUrl: string
+  sourceUrl?: string
   scaleFactors: number[]
   imageWidth: number
   imageHeight: number
@@ -36,6 +37,14 @@ for (const dirEntry of dirEntries) {
   let annotationUrl = annotations.id || annotations['@id']
   if (!annotationUrl || annotationUrl === annotationsId) {
     annotationUrl = `${annotationsId}/annotations.json`
+  }
+
+  // Read source URL from meta.json if it exists
+  const metaPath = path.join(outputDir, annotationsId, 'meta.json')
+  let sourceUrl: string | undefined
+  if (fs.existsSync(metaPath)) {
+    const meta = JSON.parse(fs.readFileSync(metaPath, 'utf-8'))
+    sourceUrl = meta.sourceUrl
   }
 
   // Find sprite width directories
@@ -71,6 +80,7 @@ for (const dirEntry of dirEntries) {
         annotationsId,
         spriteWidth,
         annotationUrl,
+        sourceUrl,
         scaleFactors,
         imageWidth: infoJson.width || 0,
         imageHeight: infoJson.height || 0
@@ -96,6 +106,11 @@ const listItems = entries
 
     return `      <li>
         <strong>${entry.annotationsId}</strong> (width: ${entry.spriteWidth}px)
+        ${
+          entry.sourceUrl
+            ? `<br><small>Source: <a href="${entry.sourceUrl}">${entry.sourceUrl}</a></small>`
+            : ''
+        }
         <br>
         Original: <a href="${entry.annotationUrl}">${entry.annotationUrl}</a> |
         <a href="https://viewer.allmaps.org/?url=${encodeURIComponent(
