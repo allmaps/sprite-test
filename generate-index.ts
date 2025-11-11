@@ -128,7 +128,7 @@ const html = `<!DOCTYPE html>
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Allmaps Thumbnail Sprite Test</title>
+    <title>Allmaps Thumbnail Sprites Test</title>
     <style>
       body {
         font-family: system-ui, -apple-system, sans-serif;
@@ -171,7 +171,7 @@ const html = `<!DOCTYPE html>
     </style>
   </head>
   <body>
-    <h1>Example thumbnail sprites</h1>
+    <h1>Allmaps Thumbnail Sprites Test</h1>
     <ul>
 ${listItems}
     </ul>
