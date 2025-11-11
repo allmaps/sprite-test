@@ -79,10 +79,10 @@ const listItems = entries
     return `      <li>
         <strong>${entry.annotationsId}</strong> (width: ${entry.spriteWidth}px)
         <br>
-        Original: <a href="${entry.annotationUrl}">${entry.annotationUrl}</a>
+        Original: <a href="${entry.annotationUrl}.json">${entry.annotationUrl}.json</a>
         <br>
         <a href="${spriteUrl}">Sprite Image</a> |
-        <a href="${annotationUrl}">Sprite Annotation</a>
+        <a href="${annotationUrl}">Sprite Georeference Annotation</a>
       </li>`
   })
   .join('\n')
