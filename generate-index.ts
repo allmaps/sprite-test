@@ -55,11 +55,11 @@ for (const dirEntry of dirEntries) {
   for (const subDir of subDirs) {
     if (!subDir.isDirectory()) continue
 
-    // Check if directory name matches pattern like "1x", "2x", "4x", etc.
-    const match = subDir.name.match(/^(\d+)x$/)
+    // Check if directory name matches pattern like "1x", "2x", "0.5x", etc.
+    const match = subDir.name.match(/^([\d.]+)x$/)
     if (!match) continue
 
-    const spriteTileScale = parseInt(match[1])
+    const spriteTileScale = parseFloat(match[1])
 
     const spritePath = path.join(
       outputDir,
