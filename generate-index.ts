@@ -12,6 +12,7 @@ interface Entry {
   scaleFactors: number[]
   imageWidth: number
   imageHeight: number
+  fileSizeKB: number
 }
 
 const entries: Entry[] = []
@@ -79,6 +80,17 @@ for (const dirEntry of dirEntries) {
       const infoJson = JSON.parse(fs.readFileSync(infoJsonPath, 'utf-8'))
       const scaleFactors = infoJson.tiles?.[0]?.scaleFactors || []
 
+      // Get file size of sprites.jpg
+      const spritesImagePath = path.join(
+        outputDir,
+        annotationsId,
+        subDir.name,
+        'sprites.jpg'
+      )
+      const fileSizeKB = fs.existsSync(spritesImagePath)
+        ? Math.round(fs.statSync(spritesImagePath).size / 1024)
+        : 0
+
       entries.push({
         annotationsId,
         spriteTileScale,
@@ -86,7 +98,8 @@ for (const dirEntry of dirEntries) {
         sourceUrl,
         scaleFactors,
         imageWidth: infoJson.width || 0,
-        imageHeight: infoJson.height || 0
+        imageHeight: infoJson.height || 0,
+        fileSizeKB
       })
     }
   }
@@ -133,10 +146,12 @@ const listItems = entries
         <table>
           <tr>
             <th>Image Size</th>
+            <th>File Size</th>
             <th>Scale Factors</th>
           </tr>
           <tr>
             <td>${entry.imageWidth} × ${entry.imageHeight}</td>
+            <td>${entry.fileSizeKB.toLocaleString()} KB</td>
             <td>${entry.scaleFactors.join(', ')}</td>
           </tr>
         </table>
