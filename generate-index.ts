@@ -6,7 +6,7 @@ const indexPath = path.join(outputDir, 'index.html')
 
 interface Entry {
   annotationsId: string
-  spriteWidth: number
+  spriteTileScale: number
   annotationUrl: string
   sourceUrl?: string
   scaleFactors: number[]
@@ -55,14 +55,17 @@ for (const dirEntry of dirEntries) {
   for (const subDir of subDirs) {
     if (!subDir.isDirectory()) continue
 
-    const spriteWidth = parseInt(subDir.name)
-    if (isNaN(spriteWidth)) continue
+    // Check if directory name matches pattern like "1x", "2x", "4x", etc.
+    const match = subDir.name.match(/^(\d+)x$/)
+    if (!match) continue
+
+    const spriteTileScale = parseInt(match[1])
 
     const spritePath = path.join(
       outputDir,
       annotationsId,
       subDir.name,
-      'thumbnail-sprites-annotation.json'
+      'annotation.json'
     )
     const infoJsonPath = path.join(
       outputDir,
@@ -78,7 +81,7 @@ for (const dirEntry of dirEntries) {
 
       entries.push({
         annotationsId,
-        spriteWidth,
+        spriteTileScale,
         annotationUrl,
         sourceUrl,
         scaleFactors,
@@ -94,18 +97,21 @@ entries.sort((a, b) => {
   if (a.annotationsId !== b.annotationsId) {
     return a.annotationsId.localeCompare(b.annotationsId)
   }
-  return a.spriteWidth - b.spriteWidth
+  return a.spriteTileScale - b.spriteTileScale
 })
 
 // Generate HTML
 const listItems = entries
   .map((entry) => {
-    const spriteUrl = `./${entry.annotationsId}/${entry.spriteWidth}/thumbnail-sprites.jpg`
-    const spriteInfoJson = `./${entry.annotationsId}/${entry.spriteWidth}/iiif/info.json`
-    const annotationUrl = `./${entry.annotationsId}/${entry.spriteWidth}/thumbnail-sprites-annotation.json`
+    const dirName = `${entry.spriteTileScale}x`
+    const spriteUrl = `./${entry.annotationsId}/${dirName}/sprites.jpg`
+    const spriteInfoJson = `./${entry.annotationsId}/${dirName}/iiif/info.json`
+    const annotationUrl = `./${entry.annotationsId}/${dirName}/annotation.json`
 
     return `      <li>
-        <strong>${entry.annotationsId}</strong> (width: ${entry.spriteWidth}px)
+        <strong>${entry.annotationsId}</strong> (${
+      entry.spriteTileScale
+    }x tile scale)
         ${
           entry.sourceUrl
             ? `<br><small>Source: <a href="${entry.sourceUrl}">${entry.sourceUrl}</a></small>`

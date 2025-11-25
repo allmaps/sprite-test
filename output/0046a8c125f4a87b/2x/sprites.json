@@ -1,0 +1,1658 @@
+[
+  {
+    "imageId": "https://objects.library.uu.nl/fcgi-bin/iipsrv.fcgi?IIIF=/manifestation/viewer/38/65/73/38657330773471920250129354503387068997.jp2",
+    "scaleFactor": 16.08203125,
+    "x": 0,
+    "y": 0,
+    "width": 512,
+    "height": 418,
+    "spriteTileScale": 2
+  },
+  {
+    "imageId": "https://objects.library.uu.nl/fcgi-bin/iipsrv.fcgi?IIIF=/manifestation/viewer/40/29/71/40297114463134509618066737149782347310.jp2",
+    "scaleFactor": 16.06640625,
+    "x": 512,
+    "y": 0,
+    "width": 512,
+    "height": 417,
+    "spriteTileScale": 2
+  },
+  {
+    "imageId": "https://objects.library.uu.nl/fcgi-bin/iipsrv.fcgi?IIIF=/manifestation/viewer/74/53/55/74535530897371616581197911062603868260.jp2",
+    "scaleFactor": 16.068359375,
+    "x": 1024,
+    "y": 0,
+    "width": 512,
+    "height": 416,
+    "spriteTileScale": 2
+  },
+  {
+    "imageId": "https://objects.library.uu.nl/fcgi-bin/iipsrv.fcgi?IIIF=/manifestation/viewer/94/49/63/94496346284540836827691936297052634255.jp2",
+    "scaleFactor": 16.19765166340509,
+    "x": 1536,
+    "y": 0,
+    "width": 511,
+    "height": 416,
+    "spriteTileScale": 2
+  },
+  {
+    "imageId": "https://objects.library.uu.nl/fcgi-bin/iipsrv.fcgi?IIIF=/manifestation/viewer/45/25/34/45253496199970906843157486729329378976.jp2",
+    "scaleFactor": 15.994140625,
+    "x": 2047,
+    "y": 0,
+    "width": 512,
+    "height": 416,
+    "spriteTileScale": 2
+  },
+  {
+    "imageId": "https://objects.library.uu.nl/fcgi-bin/iipsrv.fcgi?IIIF=/manifestation/viewer/16/98/80/169880359134329552505401969732134384427.jp2",
+    "scaleFactor": 16.083984375,
+    "x": 2559,
+    "y": 0,
+    "width": 512,
+    "height": 415,
+    "spriteTileScale": 2
+  },
+  {
+    "imageId": "https://objects.library.uu.nl/fcgi-bin/iipsrv.fcgi?IIIF=/manifestation/viewer/13/72/51/137251774992070595208634098797084861495.jp2",
+    "scaleFactor": 16.111328125,
+    "x": 3071,
+    "y": 0,
+    "width": 512,
+    "height": 415,
+    "spriteTileScale": 2
+  },
+  {
+    "imageId": "https://objects.library.uu.nl/fcgi-bin/iipsrv.fcgi?IIIF=/manifestation/viewer/32/61/56/32615623168259001883732390342565959520.jp2",
+    "scaleFactor": 16.09375,
+    "x": 3583,
+    "y": 0,
+    "width": 512,
+    "height": 415,
+    "spriteTileScale": 2
+  },
+  {
+    "imageId": "https://objects.library.uu.nl/fcgi-bin/iipsrv.fcgi?IIIF=/manifestation/viewer/95/74/75/95747581553204797467808615494009627310.jp2",
+    "scaleFactor": 16.037109375,
+    "x": 4095,
+    "y": 0,
+    "width": 512,
+    "height": 415,
+    "spriteTileScale": 2
+  },
+  {
+    "imageId": "https://objects.library.uu.nl/fcgi-bin/iipsrv.fcgi?IIIF=/manifestation/viewer/38/50/05/38500589556866270096209714791425177248.jp2",
+    "scaleFactor": 15.956947162426614,
+    "x": 4607,
+    "y": 0,
+    "width": 511,
+    "height": 415,
+    "spriteTileScale": 2
+  },
+  {
+    "imageId": "https://objects.library.uu.nl/fcgi-bin/iipsrv.fcgi?IIIF=/manifestation/viewer/10/79/64/107964820474217213249148560438704019269.jp2",
+    "scaleFactor": 16.08203125,
+    "x": 5118,
+    "y": 0,
+    "width": 512,
+    "height": 415,
+    "spriteTileScale": 2
+  },
+  {
+    "imageId": "https://objects.library.uu.nl/fcgi-bin/iipsrv.fcgi?IIIF=/manifestation/viewer/50/82/45/50824573882015973541784437139004656542.jp2",
+    "scaleFactor": 15.988235294117649,
+    "x": 5630,
+    "y": 0,
+    "width": 510,
+    "height": 414,
+    "spriteTileScale": 2
+  },
+  {
+    "imageId": "https://objects.library.uu.nl/fcgi-bin/iipsrv.fcgi?IIIF=/manifestation/viewer/90/56/43/90564323154214278011543334248874355638.jp2",
+    "scaleFactor": 16.0703125,
+    "x": 0,
+    "y": 418,
+    "width": 512,
+    "height": 414,
+    "spriteTileScale": 2
+  },
+  {
+    "imageId": "https://objects.library.uu.nl/fcgi-bin/iipsrv.fcgi?IIIF=/manifestation/viewer/69/07/48/69074829927623378376109147404492169439.jp2",
+    "scaleFactor": 16.0234375,
+    "x": 512,
+    "y": 418,
+    "width": 512,
+    "height": 414,
+    "spriteTileScale": 2
+  },
+  {
+    "imageId": "https://objects.library.uu.nl/fcgi-bin/iipsrv.fcgi?IIIF=/manifestation/viewer/17/06/93/17069370337910188500398094326542082396.jp2",
+    "scaleFactor": 16.12109375,
+    "x": 1024,
+    "y": 418,
+    "width": 512,
+    "height": 414,
+    "spriteTileScale": 2
+  },
+  {
+    "imageId": "https://objects.library.uu.nl/fcgi-bin/iipsrv.fcgi?IIIF=/manifestation/viewer/16/14/09/161409434175396707919289802803478452956.jp2",
+    "scaleFactor": 16.234833659491194,
+    "x": 1536,
+    "y": 418,
+    "width": 511,
+    "height": 414,
+    "spriteTileScale": 2
+  },
+  {
+    "imageId": "https://objects.library.uu.nl/fcgi-bin/iipsrv.fcgi?IIIF=/manifestation/viewer/16/33/16/163316585517582492384911712632538602138.jp2",
+    "scaleFactor": 15.98046875,
+    "x": 2047,
+    "y": 418,
+    "width": 512,
+    "height": 414,
+    "spriteTileScale": 2
+  },
+  {
+    "imageId": "https://objects.library.uu.nl/fcgi-bin/iipsrv.fcgi?IIIF=/manifestation/viewer/16/92/97/169297815239001034996433509417996430369.jp2",
+    "scaleFactor": 16.021484375,
+    "x": 2559,
+    "y": 418,
+    "width": 512,
+    "height": 414,
+    "spriteTileScale": 2
+  },
+  {
+    "imageId": "https://objects.library.uu.nl/fcgi-bin/iipsrv.fcgi?IIIF=/manifestation/viewer/25/91/42/2591425080779296937332954464984364549.jp2",
+    "scaleFactor": 15.951171874999998,
+    "x": 3071,
+    "y": 418,
+    "width": 512,
+    "height": 414,
+    "spriteTileScale": 2
+  },
+  {
+    "imageId": "https://objects.library.uu.nl/fcgi-bin/iipsrv.fcgi?IIIF=/manifestation/viewer/70/50/28/70502852399294639189549581558960657892.jp2",
+    "scaleFactor": 15.916015625,
+    "x": 3583,
+    "y": 418,
+    "width": 512,
+    "height": 413,
+    "spriteTileScale": 2
+  },
+  {
+    "imageId": "https://objects.library.uu.nl/fcgi-bin/iipsrv.fcgi?IIIF=/manifestation/viewer/14/59/97/145997402694361136576062710160871780724.jp2",
+    "scaleFactor": 16.083984375,
+    "x": 4095,
+    "y": 418,
+    "width": 512,
+    "height": 413,
+    "spriteTileScale": 2
+  },
+  {
+    "imageId": "https://objects.library.uu.nl/fcgi-bin/iipsrv.fcgi?IIIF=/manifestation/viewer/89/69/89/89698993098262248950820030589232019251.jp2",
+    "scaleFactor": 15.931640625,
+    "x": 4607,
+    "y": 418,
+    "width": 512,
+    "height": 413,
+    "spriteTileScale": 2
+  },
+  {
+    "imageId": "https://objects.library.uu.nl/fcgi-bin/iipsrv.fcgi?IIIF=/manifestation/viewer/13/81/13/138113125094066255804837366034175147824.jp2",
+    "scaleFactor": 15.998046875,
+    "x": 5119,
+    "y": 418,
+    "width": 512,
+    "height": 413,
+    "spriteTileScale": 2
+  },
+  {
+    "imageId": "https://objects.library.uu.nl/fcgi-bin/iipsrv.fcgi?IIIF=/manifestation/viewer/52/33/17/52331725201517206014722086098648815950.jp2",
+    "scaleFactor": 15.96484375,
+    "x": 5631,
+    "y": 418,
+    "width": 512,
+    "height": 413,
+    "spriteTileScale": 2
+  },
+  {
+    "imageId": "https://objects.library.uu.nl/fcgi-bin/iipsrv.fcgi?IIIF=/manifestation/viewer/77/91/72/77917267551335434129346846853975712613.jp2",
+    "scaleFactor": 16.046875,
+    "x": 0,
+    "y": 832,
+    "width": 512,
+    "height": 413,
+    "spriteTileScale": 2
+  },
+  {
+    "imageId": "https://objects.library.uu.nl/fcgi-bin/iipsrv.fcgi?IIIF=/manifestation/viewer/52/88/15/52881572954243119652243047797502485100.jp2",
+    "scaleFactor": 16.01953125,
+    "x": 512,
+    "y": 832,
+    "width": 512,
+    "height": 413,
+    "spriteTileScale": 2
+  },
+  {
+    "imageId": "https://objects.library.uu.nl/fcgi-bin/iipsrv.fcgi?IIIF=/manifestation/viewer/16/68/99/166899638798240849859313268269709699686.jp2",
+    "scaleFactor": 16,
+    "x": 1024,
+    "y": 832,
+    "width": 512,
+    "height": 413,
+    "spriteTileScale": 2
+  },
+  {
+    "imageId": "https://objects.library.uu.nl/fcgi-bin/iipsrv.fcgi?IIIF=/manifestation/viewer/81/42/27/8142271424363042236173934562025950046.jp2",
+    "scaleFactor": 16.021526418786692,
+    "x": 1536,
+    "y": 832,
+    "width": 511,
+    "height": 413,
+    "spriteTileScale": 2
+  },
+  {
+    "imageId": "https://objects.library.uu.nl/fcgi-bin/iipsrv.fcgi?IIIF=/manifestation/viewer/86/29/72/86297214985998144612729391700660196979.jp2",
+    "scaleFactor": 15.99412915851272,
+    "x": 2047,
+    "y": 832,
+    "width": 511,
+    "height": 413,
+    "spriteTileScale": 2
+  },
+  {
+    "imageId": "https://objects.library.uu.nl/fcgi-bin/iipsrv.fcgi?IIIF=/manifestation/viewer/58/39/00/58390095140216533147836969099422908046.jp2",
+    "scaleFactor": 16.041015625,
+    "x": 2558,
+    "y": 832,
+    "width": 512,
+    "height": 413,
+    "spriteTileScale": 2
+  },
+  {
+    "imageId": "https://objects.library.uu.nl/fcgi-bin/iipsrv.fcgi?IIIF=/manifestation/viewer/52/37/41/52374141073712340408278981101295722858.jp2",
+    "scaleFactor": 15.99609375,
+    "x": 3070,
+    "y": 832,
+    "width": 512,
+    "height": 413,
+    "spriteTileScale": 2
+  },
+  {
+    "imageId": "https://objects.library.uu.nl/fcgi-bin/iipsrv.fcgi?IIIF=/manifestation/viewer/10/46/21/10462156234360627867108377477959377265.jp2",
+    "scaleFactor": 16.072265625,
+    "x": 3582,
+    "y": 832,
+    "width": 512,
+    "height": 413,
+    "spriteTileScale": 2
+  },
+  {
+    "imageId": "https://objects.library.uu.nl/fcgi-bin/iipsrv.fcgi?IIIF=/manifestation/viewer/13/83/89/138389587587089025656053337627294640742.jp2",
+    "scaleFactor": 16.0390625,
+    "x": 4094,
+    "y": 832,
+    "width": 512,
+    "height": 413,
+    "spriteTileScale": 2
+  },
+  {
+    "imageId": "https://objects.library.uu.nl/fcgi-bin/iipsrv.fcgi?IIIF=/manifestation/viewer/62/20/26/62202602478751882340625427742388902279.jp2",
+    "scaleFactor": 15.98046875,
+    "x": 4606,
+    "y": 832,
+    "width": 512,
+    "height": 413,
+    "spriteTileScale": 2
+  },
+  {
+    "imageId": "https://objects.library.uu.nl/fcgi-bin/iipsrv.fcgi?IIIF=/manifestation/viewer/42/73/11/4273115892995758808918938219786966422.jp2",
+    "scaleFactor": 15.96875,
+    "x": 5118,
+    "y": 832,
+    "width": 512,
+    "height": 413,
+    "spriteTileScale": 2
+  },
+  {
+    "imageId": "https://objects.library.uu.nl/fcgi-bin/iipsrv.fcgi?IIIF=/manifestation/viewer/11/17/19/111719151054593901028316620643013774590.jp2",
+    "scaleFactor": 16.01171875,
+    "x": 5630,
+    "y": 832,
+    "width": 512,
+    "height": 412,
+    "spriteTileScale": 2
+  },
+  {
+    "imageId": "https://objects.library.uu.nl/fcgi-bin/iipsrv.fcgi?IIIF=/manifestation/viewer/10/21/07/102107061746127009146422249155908704186.jp2",
+    "scaleFactor": 16.099609375,
+    "x": 0,
+    "y": 1245,
+    "width": 512,
+    "height": 412,
+    "spriteTileScale": 2
+  },
+  {
+    "imageId": "https://objects.library.uu.nl/fcgi-bin/iipsrv.fcgi?IIIF=/manifestation/viewer/11/07/03/110703135120601659406967726504263917993.jp2",
+    "scaleFactor": 16.04296875,
+    "x": 512,
+    "y": 1245,
+    "width": 512,
+    "height": 412,
+    "spriteTileScale": 2
+  },
+  {
+    "imageId": "https://objects.library.uu.nl/fcgi-bin/iipsrv.fcgi?IIIF=/manifestation/viewer/56/03/85/56038529950300223324770305289477432341.jp2",
+    "scaleFactor": 16.15068493150685,
+    "x": 1024,
+    "y": 1245,
+    "width": 511,
+    "height": 412,
+    "spriteTileScale": 2
+  },
+  {
+    "imageId": "https://objects.library.uu.nl/fcgi-bin/iipsrv.fcgi?IIIF=/manifestation/viewer/47/97/67/47976788514090984343901741060878230629.jp2",
+    "scaleFactor": 16.03515625,
+    "x": 1535,
+    "y": 1245,
+    "width": 512,
+    "height": 412,
+    "spriteTileScale": 2
+  },
+  {
+    "imageId": "https://objects.library.uu.nl/fcgi-bin/iipsrv.fcgi?IIIF=/manifestation/viewer/22/60/00/22600047977817946758630311730894698416.jp2",
+    "scaleFactor": 16.0234375,
+    "x": 2047,
+    "y": 1245,
+    "width": 512,
+    "height": 412,
+    "spriteTileScale": 2
+  },
+  {
+    "imageId": "https://objects.library.uu.nl/fcgi-bin/iipsrv.fcgi?IIIF=/manifestation/viewer/77/28/26/7728268101861013459459568629846244471.jp2",
+    "scaleFactor": 15.96484375,
+    "x": 2559,
+    "y": 1245,
+    "width": 512,
+    "height": 412,
+    "spriteTileScale": 2
+  },
+  {
+    "imageId": "https://objects.library.uu.nl/fcgi-bin/iipsrv.fcgi?IIIF=/manifestation/viewer/36/13/79/36137978159709365461292082038190741592.jp2",
+    "scaleFactor": 16.021526418786692,
+    "x": 3071,
+    "y": 1245,
+    "width": 511,
+    "height": 412,
+    "spriteTileScale": 2
+  },
+  {
+    "imageId": "https://objects.library.uu.nl/fcgi-bin/iipsrv.fcgi?IIIF=/manifestation/viewer/15/17/82/151782501270513637410797625457843511661.jp2",
+    "scaleFactor": 15.91015625,
+    "x": 3582,
+    "y": 1245,
+    "width": 512,
+    "height": 412,
+    "spriteTileScale": 2
+  },
+  {
+    "imageId": "https://objects.library.uu.nl/fcgi-bin/iipsrv.fcgi?IIIF=/manifestation/viewer/45/69/86/4569864394293445543595360657195325839.jp2",
+    "scaleFactor": 16.0625,
+    "x": 4094,
+    "y": 1245,
+    "width": 512,
+    "height": 412,
+    "spriteTileScale": 2
+  },
+  {
+    "imageId": "https://objects.library.uu.nl/fcgi-bin/iipsrv.fcgi?IIIF=/manifestation/viewer/15/11/74/151174488665903575784502097134465300978.jp2",
+    "scaleFactor": 16.09375,
+    "x": 4606,
+    "y": 1245,
+    "width": 512,
+    "height": 412,
+    "spriteTileScale": 2
+  },
+  {
+    "imageId": "https://objects.library.uu.nl/fcgi-bin/iipsrv.fcgi?IIIF=/manifestation/viewer/11/63/73/116373034311000687727421526045347654227.jp2",
+    "scaleFactor": 15.99609375,
+    "x": 5118,
+    "y": 1245,
+    "width": 512,
+    "height": 412,
+    "spriteTileScale": 2
+  },
+  {
+    "imageId": "https://objects.library.uu.nl/fcgi-bin/iipsrv.fcgi?IIIF=/manifestation/viewer/31/12/22/31122234148804293667291773869779159180.jp2",
+    "scaleFactor": 16.001953125,
+    "x": 5630,
+    "y": 1245,
+    "width": 512,
+    "height": 412,
+    "spriteTileScale": 2
+  },
+  {
+    "imageId": "https://objects.library.uu.nl/fcgi-bin/iipsrv.fcgi?IIIF=/manifestation/viewer/34/12/16/34121609049426820046751431784886680412.jp2",
+    "scaleFactor": 15.917968749999998,
+    "x": 0,
+    "y": 1657,
+    "width": 512,
+    "height": 412,
+    "spriteTileScale": 2
+  },
+  {
+    "imageId": "https://objects.library.uu.nl/fcgi-bin/iipsrv.fcgi?IIIF=/manifestation/viewer/55/01/26/55012608695171022780090488638684891525.jp2",
+    "scaleFactor": 15.9921875,
+    "x": 512,
+    "y": 1657,
+    "width": 512,
+    "height": 412,
+    "spriteTileScale": 2
+  },
+  {
+    "imageId": "https://objects.library.uu.nl/fcgi-bin/iipsrv.fcgi?IIIF=/manifestation/viewer/25/18/71/2518714888445412995365576529541055155.jp2",
+    "scaleFactor": 16,
+    "x": 1024,
+    "y": 1657,
+    "width": 512,
+    "height": 412,
+    "spriteTileScale": 2
+  },
+  {
+    "imageId": "https://objects.library.uu.nl/fcgi-bin/iipsrv.fcgi?IIIF=/manifestation/viewer/63/72/55/63725597193086169756869043221065746942.jp2",
+    "scaleFactor": 16.111328125,
+    "x": 1536,
+    "y": 1657,
+    "width": 512,
+    "height": 412,
+    "spriteTileScale": 2
+  },
+  {
+    "imageId": "https://objects.library.uu.nl/fcgi-bin/iipsrv.fcgi?IIIF=/manifestation/viewer/17/33/06/17330639186142301040942037742764503900.jp2",
+    "scaleFactor": 16.080078125,
+    "x": 2048,
+    "y": 1657,
+    "width": 512,
+    "height": 412,
+    "spriteTileScale": 2
+  },
+  {
+    "imageId": "https://objects.library.uu.nl/fcgi-bin/iipsrv.fcgi?IIIF=/manifestation/viewer/13/58/62/135862702293858725940247739695970261506.jp2",
+    "scaleFactor": 16.101761252446185,
+    "x": 2560,
+    "y": 1657,
+    "width": 511,
+    "height": 412,
+    "spriteTileScale": 2
+  },
+  {
+    "imageId": "https://objects.library.uu.nl/fcgi-bin/iipsrv.fcgi?IIIF=/manifestation/viewer/15/04/56/15045683290102005994849283917024974211.jp2",
+    "scaleFactor": 16.0234375,
+    "x": 3071,
+    "y": 1657,
+    "width": 512,
+    "height": 412,
+    "spriteTileScale": 2
+  },
+  {
+    "imageId": "https://objects.library.uu.nl/fcgi-bin/iipsrv.fcgi?IIIF=/manifestation/viewer/60/77/73/60777344442283792650161437299868447557.jp2",
+    "scaleFactor": 16.03515625,
+    "x": 3583,
+    "y": 1657,
+    "width": 512,
+    "height": 412,
+    "spriteTileScale": 2
+  },
+  {
+    "imageId": "https://objects.library.uu.nl/fcgi-bin/iipsrv.fcgi?IIIF=/manifestation/viewer/14/31/69/143169793807059258724054146998779742933.jp2",
+    "scaleFactor": 16.01953125,
+    "x": 4095,
+    "y": 1657,
+    "width": 512,
+    "height": 412,
+    "spriteTileScale": 2
+  },
+  {
+    "imageId": "https://objects.library.uu.nl/fcgi-bin/iipsrv.fcgi?IIIF=/manifestation/viewer/15/79/68/157968402699234364024198980811600620227.jp2",
+    "scaleFactor": 16.0625,
+    "x": 4607,
+    "y": 1657,
+    "width": 512,
+    "height": 411,
+    "spriteTileScale": 2
+  },
+  {
+    "imageId": "https://objects.library.uu.nl/fcgi-bin/iipsrv.fcgi?IIIF=/manifestation/viewer/29/87/81/29878188555566028947960254957486869540.jp2",
+    "scaleFactor": 15.994140625,
+    "x": 5119,
+    "y": 1657,
+    "width": 512,
+    "height": 411,
+    "spriteTileScale": 2
+  },
+  {
+    "imageId": "https://objects.library.uu.nl/fcgi-bin/iipsrv.fcgi?IIIF=/manifestation/viewer/64/01/92/64019294421135038211300391899061864005.jp2",
+    "scaleFactor": 16.072265625,
+    "x": 5631,
+    "y": 1657,
+    "width": 512,
+    "height": 411,
+    "spriteTileScale": 2
+  },
+  {
+    "imageId": "https://objects.library.uu.nl/fcgi-bin/iipsrv.fcgi?IIIF=/manifestation/viewer/11/07/62/110762630903130733103846224090857499998.jp2",
+    "scaleFactor": 16.080078125,
+    "x": 0,
+    "y": 2069,
+    "width": 512,
+    "height": 411,
+    "spriteTileScale": 2
+  },
+  {
+    "imageId": "https://objects.library.uu.nl/fcgi-bin/iipsrv.fcgi?IIIF=/manifestation/viewer/37/12/28/37122815171897233397337439053535381656.jp2",
+    "scaleFactor": 16.041015625,
+    "x": 512,
+    "y": 2069,
+    "width": 512,
+    "height": 411,
+    "spriteTileScale": 2
+  },
+  {
+    "imageId": "https://objects.library.uu.nl/fcgi-bin/iipsrv.fcgi?IIIF=/manifestation/viewer/19/35/61/19356199750845790486858991953995442314.jp2",
+    "scaleFactor": 16.0546875,
+    "x": 1024,
+    "y": 2069,
+    "width": 512,
+    "height": 411,
+    "spriteTileScale": 2
+  },
+  {
+    "imageId": "https://objects.library.uu.nl/fcgi-bin/iipsrv.fcgi?IIIF=/manifestation/viewer/40/03/69/40036996195442492519661602467109350968.jp2",
+    "scaleFactor": 16.08984375,
+    "x": 1536,
+    "y": 2069,
+    "width": 512,
+    "height": 411,
+    "spriteTileScale": 2
+  },
+  {
+    "imageId": "https://objects.library.uu.nl/fcgi-bin/iipsrv.fcgi?IIIF=/manifestation/viewer/15/94/29/159429607547473285609264797062713299412.jp2",
+    "scaleFactor": 16.0078125,
+    "x": 2048,
+    "y": 2069,
+    "width": 512,
+    "height": 411,
+    "spriteTileScale": 2
+  },
+  {
+    "imageId": "https://objects.library.uu.nl/fcgi-bin/iipsrv.fcgi?IIIF=/manifestation/viewer/15/97/69/159769962748754286518035860148539781308.jp2",
+    "scaleFactor": 15.962890625,
+    "x": 2560,
+    "y": 2069,
+    "width": 512,
+    "height": 411,
+    "spriteTileScale": 2
+  },
+  {
+    "imageId": "https://objects.library.uu.nl/fcgi-bin/iipsrv.fcgi?IIIF=/manifestation/viewer/30/18/20/30182084431614973664336845191903376563.jp2",
+    "scaleFactor": 15.97265625,
+    "x": 3072,
+    "y": 2069,
+    "width": 512,
+    "height": 411,
+    "spriteTileScale": 2
+  },
+  {
+    "imageId": "https://objects.library.uu.nl/fcgi-bin/iipsrv.fcgi?IIIF=/manifestation/viewer/62/91/06/62910677727910936747650513899099504175.jp2",
+    "scaleFactor": 16.064453125,
+    "x": 3584,
+    "y": 2069,
+    "width": 512,
+    "height": 411,
+    "spriteTileScale": 2
+  },
+  {
+    "imageId": "https://objects.library.uu.nl/fcgi-bin/iipsrv.fcgi?IIIF=/manifestation/viewer/88/15/49/88154954115374392715559720948210623317.jp2",
+    "scaleFactor": 16.01953125,
+    "x": 4096,
+    "y": 2069,
+    "width": 512,
+    "height": 411,
+    "spriteTileScale": 2
+  },
+  {
+    "imageId": "https://objects.library.uu.nl/fcgi-bin/iipsrv.fcgi?IIIF=/manifestation/viewer/76/46/02/76460238140856523482551788139417836611.jp2",
+    "scaleFactor": 16.009765625,
+    "x": 4608,
+    "y": 2069,
+    "width": 512,
+    "height": 411,
+    "spriteTileScale": 2
+  },
+  {
+    "imageId": "https://objects.library.uu.nl/fcgi-bin/iipsrv.fcgi?IIIF=/manifestation/viewer/15/63/07/156307591689325407332420583406510507465.jp2",
+    "scaleFactor": 15.97265625,
+    "x": 5120,
+    "y": 2069,
+    "width": 512,
+    "height": 411,
+    "spriteTileScale": 2
+  },
+  {
+    "imageId": "https://objects.library.uu.nl/fcgi-bin/iipsrv.fcgi?IIIF=/manifestation/viewer/44/07/30/44073042748065600134972271465458187092.jp2",
+    "scaleFactor": 16.08203125,
+    "x": 5632,
+    "y": 2069,
+    "width": 512,
+    "height": 411,
+    "spriteTileScale": 2
+  },
+  {
+    "imageId": "https://objects.library.uu.nl/fcgi-bin/iipsrv.fcgi?IIIF=/manifestation/viewer/16/69/54/166954399941221800714261389956305303270.jp2",
+    "scaleFactor": 16.1171875,
+    "x": 0,
+    "y": 2480,
+    "width": 512,
+    "height": 411,
+    "spriteTileScale": 2
+  },
+  {
+    "imageId": "https://objects.library.uu.nl/fcgi-bin/iipsrv.fcgi?IIIF=/manifestation/viewer/68/01/19/68011930779898272275013916054753702158.jp2",
+    "scaleFactor": 16.076171875,
+    "x": 512,
+    "y": 2480,
+    "width": 512,
+    "height": 411,
+    "spriteTileScale": 2
+  },
+  {
+    "imageId": "https://objects.library.uu.nl/fcgi-bin/iipsrv.fcgi?IIIF=/manifestation/viewer/15/93/72/15937259846192468183170262653503053440.jp2",
+    "scaleFactor": 16.107421875,
+    "x": 1024,
+    "y": 2480,
+    "width": 512,
+    "height": 411,
+    "spriteTileScale": 2
+  },
+  {
+    "imageId": "https://objects.library.uu.nl/fcgi-bin/iipsrv.fcgi?IIIF=/manifestation/viewer/44/66/25/44662551291861737125683872149349494434.jp2",
+    "scaleFactor": 16.01953125,
+    "x": 1536,
+    "y": 2480,
+    "width": 512,
+    "height": 411,
+    "spriteTileScale": 2
+  },
+  {
+    "imageId": "https://objects.library.uu.nl/fcgi-bin/iipsrv.fcgi?IIIF=/manifestation/viewer/58/57/69/58576979013602218213839617041502955165.jp2",
+    "scaleFactor": 15.998046875,
+    "x": 2048,
+    "y": 2480,
+    "width": 512,
+    "height": 411,
+    "spriteTileScale": 2
+  },
+  {
+    "imageId": "https://objects.library.uu.nl/fcgi-bin/iipsrv.fcgi?IIIF=/manifestation/viewer/91/86/75/91867529280585286170177038065652144890.jp2",
+    "scaleFactor": 16.064453125,
+    "x": 2560,
+    "y": 2480,
+    "width": 512,
+    "height": 411,
+    "spriteTileScale": 2
+  },
+  {
+    "imageId": "https://objects.library.uu.nl/fcgi-bin/iipsrv.fcgi?IIIF=/manifestation/viewer/48/71/89/48718915980375788929279873577796152011.jp2",
+    "scaleFactor": 16.10958904109589,
+    "x": 3072,
+    "y": 2480,
+    "width": 511,
+    "height": 411,
+    "spriteTileScale": 2
+  },
+  {
+    "imageId": "https://objects.library.uu.nl/fcgi-bin/iipsrv.fcgi?IIIF=/manifestation/viewer/13/15/09/131509523591278994437587639338567276080.jp2",
+    "scaleFactor": 16.119140625,
+    "x": 3583,
+    "y": 2480,
+    "width": 512,
+    "height": 410,
+    "spriteTileScale": 2
+  },
+  {
+    "imageId": "https://objects.library.uu.nl/fcgi-bin/iipsrv.fcgi?IIIF=/manifestation/viewer/72/60/45/72604570414099309655310744013550454918.jp2",
+    "scaleFactor": 16.056640625,
+    "x": 4095,
+    "y": 2480,
+    "width": 512,
+    "height": 410,
+    "spriteTileScale": 2
+  },
+  {
+    "imageId": "https://objects.library.uu.nl/fcgi-bin/iipsrv.fcgi?IIIF=/manifestation/viewer/16/67/32/166732226232138217345332996616644593192.jp2",
+    "scaleFactor": 16.119140625,
+    "x": 4607,
+    "y": 2480,
+    "width": 512,
+    "height": 410,
+    "spriteTileScale": 2
+  },
+  {
+    "imageId": "https://objects.library.uu.nl/fcgi-bin/iipsrv.fcgi?IIIF=/manifestation/viewer/13/83/32/13833218903482055775871315901598655221.jp2",
+    "scaleFactor": 16.05078125,
+    "x": 5119,
+    "y": 2480,
+    "width": 512,
+    "height": 410,
+    "spriteTileScale": 2
+  },
+  {
+    "imageId": "https://objects.library.uu.nl/fcgi-bin/iipsrv.fcgi?IIIF=/manifestation/viewer/15/60/83/156083598814331113321025734222625135012.jp2",
+    "scaleFactor": 16.123046875,
+    "x": 5631,
+    "y": 2480,
+    "width": 512,
+    "height": 410,
+    "spriteTileScale": 2
+  },
+  {
+    "imageId": "https://objects.library.uu.nl/fcgi-bin/iipsrv.fcgi?IIIF=/manifestation/viewer/39/73/44/39734482653020991065575959096237777400.jp2",
+    "scaleFactor": 16.046875,
+    "x": 0,
+    "y": 2891,
+    "width": 512,
+    "height": 410,
+    "spriteTileScale": 2
+  },
+  {
+    "imageId": "https://objects.library.uu.nl/fcgi-bin/iipsrv.fcgi?IIIF=/manifestation/viewer/79/72/38/79723821393249739088253241497933056102.jp2",
+    "scaleFactor": 16.072265625,
+    "x": 512,
+    "y": 2891,
+    "width": 512,
+    "height": 410,
+    "spriteTileScale": 2
+  },
+  {
+    "imageId": "https://objects.library.uu.nl/fcgi-bin/iipsrv.fcgi?IIIF=/manifestation/viewer/72/44/71/7244717849120383906594187956881479160.jp2",
+    "scaleFactor": 16.08203125,
+    "x": 1024,
+    "y": 2891,
+    "width": 512,
+    "height": 410,
+    "spriteTileScale": 2
+  },
+  {
+    "imageId": "https://objects.library.uu.nl/fcgi-bin/iipsrv.fcgi?IIIF=/manifestation/viewer/33/72/45/33724519046839500773737478643332576594.jp2",
+    "scaleFactor": 16.0859375,
+    "x": 1536,
+    "y": 2891,
+    "width": 512,
+    "height": 410,
+    "spriteTileScale": 2
+  },
+  {
+    "imageId": "https://objects.library.uu.nl/fcgi-bin/iipsrv.fcgi?IIIF=/manifestation/viewer/40/89/33/40893329581991875511430495744116546991.jp2",
+    "scaleFactor": 16.09375,
+    "x": 2048,
+    "y": 2891,
+    "width": 512,
+    "height": 410,
+    "spriteTileScale": 2
+  },
+  {
+    "imageId": "https://objects.library.uu.nl/fcgi-bin/iipsrv.fcgi?IIIF=/manifestation/viewer/20/16/91/20169122803869241977848952173490481059.jp2",
+    "scaleFactor": 16.064453125,
+    "x": 2560,
+    "y": 2891,
+    "width": 512,
+    "height": 410,
+    "spriteTileScale": 2
+  },
+  {
+    "imageId": "https://objects.library.uu.nl/fcgi-bin/iipsrv.fcgi?IIIF=/manifestation/viewer/86/18/92/86189217845734387975751419512525708025.jp2",
+    "scaleFactor": 16.113502935420744,
+    "x": 3072,
+    "y": 2891,
+    "width": 511,
+    "height": 410,
+    "spriteTileScale": 2
+  },
+  {
+    "imageId": "https://objects.library.uu.nl/fcgi-bin/iipsrv.fcgi?IIIF=/manifestation/viewer/62/06/16/62061656426871211627646389294954788136.jp2",
+    "scaleFactor": 16.095703125,
+    "x": 3583,
+    "y": 2891,
+    "width": 512,
+    "height": 410,
+    "spriteTileScale": 2
+  },
+  {
+    "imageId": "https://objects.library.uu.nl/fcgi-bin/iipsrv.fcgi?IIIF=/manifestation/viewer/16/98/63/169863043833155016192475290190307438215.jp2",
+    "scaleFactor": 16.140625,
+    "x": 4095,
+    "y": 2891,
+    "width": 512,
+    "height": 410,
+    "spriteTileScale": 2
+  },
+  {
+    "imageId": "https://objects.library.uu.nl/fcgi-bin/iipsrv.fcgi?IIIF=/manifestation/viewer/13/01/29/13012973899595161530365805748769695576.jp2",
+    "scaleFactor": 16.134765625,
+    "x": 4607,
+    "y": 2891,
+    "width": 512,
+    "height": 410,
+    "spriteTileScale": 2
+  },
+  {
+    "imageId": "https://objects.library.uu.nl/fcgi-bin/iipsrv.fcgi?IIIF=/manifestation/viewer/11/15/98/111598009196420948252610904964881128312.jp2",
+    "scaleFactor": 15.9921875,
+    "x": 5119,
+    "y": 2891,
+    "width": 512,
+    "height": 410,
+    "spriteTileScale": 2
+  },
+  {
+    "imageId": "https://objects.library.uu.nl/fcgi-bin/iipsrv.fcgi?IIIF=/manifestation/viewer/15/72/79/157279813112312267209035787922315157671.jp2",
+    "scaleFactor": 16.007827788649706,
+    "x": 5631,
+    "y": 2891,
+    "width": 511,
+    "height": 410,
+    "spriteTileScale": 2
+  },
+  {
+    "imageId": "https://objects.library.uu.nl/fcgi-bin/iipsrv.fcgi?IIIF=/manifestation/viewer/18/06/07/1806075665128946320814061127809940438.jp2",
+    "scaleFactor": 16.111328125,
+    "x": 0,
+    "y": 3301,
+    "width": 512,
+    "height": 410,
+    "spriteTileScale": 2
+  },
+  {
+    "imageId": "https://objects.library.uu.nl/fcgi-bin/iipsrv.fcgi?IIIF=/manifestation/viewer/55/17/49/55174911820665835484049513300519808727.jp2",
+    "scaleFactor": 16.007827788649706,
+    "x": 512,
+    "y": 3301,
+    "width": 511,
+    "height": 410,
+    "spriteTileScale": 2
+  },
+  {
+    "imageId": "https://objects.library.uu.nl/fcgi-bin/iipsrv.fcgi?IIIF=/manifestation/viewer/76/73/60/76736059952376585006216067306505192430.jp2",
+    "scaleFactor": 16.03515625,
+    "x": 1023,
+    "y": 3301,
+    "width": 512,
+    "height": 410,
+    "spriteTileScale": 2
+  },
+  {
+    "imageId": "https://objects.library.uu.nl/fcgi-bin/iipsrv.fcgi?IIIF=/manifestation/viewer/77/08/53/77085336281854676981855728561846956449.jp2",
+    "scaleFactor": 16.115234375,
+    "x": 1535,
+    "y": 3301,
+    "width": 512,
+    "height": 410,
+    "spriteTileScale": 2
+  },
+  {
+    "imageId": "https://objects.library.uu.nl/fcgi-bin/iipsrv.fcgi?IIIF=/manifestation/viewer/12/76/67/12766770221206128035739106398644624121.jp2",
+    "scaleFactor": 16.0234375,
+    "x": 2047,
+    "y": 3301,
+    "width": 512,
+    "height": 410,
+    "spriteTileScale": 2
+  },
+  {
+    "imageId": "https://objects.library.uu.nl/fcgi-bin/iipsrv.fcgi?IIIF=/manifestation/viewer/82/41/16/82411650527548779389487054541419705375.jp2",
+    "scaleFactor": 16.103515625,
+    "x": 2559,
+    "y": 3301,
+    "width": 512,
+    "height": 410,
+    "spriteTileScale": 2
+  },
+  {
+    "imageId": "https://objects.library.uu.nl/fcgi-bin/iipsrv.fcgi?IIIF=/manifestation/viewer/51/70/18/51701841780159298214580840935383388045.jp2",
+    "scaleFactor": 16.107421875,
+    "x": 3071,
+    "y": 3301,
+    "width": 512,
+    "height": 410,
+    "spriteTileScale": 2
+  },
+  {
+    "imageId": "https://objects.library.uu.nl/fcgi-bin/iipsrv.fcgi?IIIF=/manifestation/viewer/82/58/00/82580085058042744314535145763470998376.jp2",
+    "scaleFactor": 15.986328125,
+    "x": 3583,
+    "y": 3301,
+    "width": 512,
+    "height": 410,
+    "spriteTileScale": 2
+  },
+  {
+    "imageId": "https://objects.library.uu.nl/fcgi-bin/iipsrv.fcgi?IIIF=/manifestation/viewer/10/36/16/103616141552347473943694553092767842264.jp2",
+    "scaleFactor": 16.0078125,
+    "x": 4095,
+    "y": 3301,
+    "width": 512,
+    "height": 410,
+    "spriteTileScale": 2
+  },
+  {
+    "imageId": "https://objects.library.uu.nl/fcgi-bin/iipsrv.fcgi?IIIF=/manifestation/viewer/11/47/37/114737984134214361438460011928903012125.jp2",
+    "scaleFactor": 16.021526418786692,
+    "x": 4607,
+    "y": 3301,
+    "width": 511,
+    "height": 410,
+    "spriteTileScale": 2
+  },
+  {
+    "imageId": "https://objects.library.uu.nl/fcgi-bin/iipsrv.fcgi?IIIF=/manifestation/viewer/56/21/83/56218336090182592219918359481561660070.jp2",
+    "scaleFactor": 16.0625,
+    "x": 5118,
+    "y": 3301,
+    "width": 512,
+    "height": 409,
+    "spriteTileScale": 2
+  },
+  {
+    "imageId": "https://objects.library.uu.nl/fcgi-bin/iipsrv.fcgi?IIIF=/manifestation/viewer/60/16/60/60166039114677892319744235130972162822.jp2",
+    "scaleFactor": 16.130859375,
+    "x": 5630,
+    "y": 3301,
+    "width": 512,
+    "height": 409,
+    "spriteTileScale": 2
+  },
+  {
+    "imageId": "https://objects.library.uu.nl/fcgi-bin/iipsrv.fcgi?IIIF=/manifestation/viewer/25/99/73/25997343760915872877908385199205103115.jp2",
+    "scaleFactor": 16.134765625,
+    "x": 0,
+    "y": 3711,
+    "width": 512,
+    "height": 409,
+    "spriteTileScale": 2
+  },
+  {
+    "imageId": "https://objects.library.uu.nl/fcgi-bin/iipsrv.fcgi?IIIF=/manifestation/viewer/12/99/91/129991033960574742158029362494409958738.jp2",
+    "scaleFactor": 16.08203125,
+    "x": 512,
+    "y": 3711,
+    "width": 512,
+    "height": 409,
+    "spriteTileScale": 2
+  },
+  {
+    "imageId": "https://objects.library.uu.nl/fcgi-bin/iipsrv.fcgi?IIIF=/manifestation/viewer/28/78/54/28785461518859120663295898639046702595.jp2",
+    "scaleFactor": 16.103515625,
+    "x": 1024,
+    "y": 3711,
+    "width": 512,
+    "height": 409,
+    "spriteTileScale": 2
+  },
+  {
+    "imageId": "https://objects.library.uu.nl/fcgi-bin/iipsrv.fcgi?IIIF=/manifestation/viewer/14/07/80/140780005559482001557796301096013003263.jp2",
+    "scaleFactor": 16.0546875,
+    "x": 1536,
+    "y": 3711,
+    "width": 512,
+    "height": 409,
+    "spriteTileScale": 2
+  },
+  {
+    "imageId": "https://objects.library.uu.nl/fcgi-bin/iipsrv.fcgi?IIIF=/manifestation/viewer/34/72/53/34725360014305705754110657528838793283.jp2",
+    "scaleFactor": 16.09375,
+    "x": 2048,
+    "y": 3711,
+    "width": 512,
+    "height": 409,
+    "spriteTileScale": 2
+  },
+  {
+    "imageId": "https://objects.library.uu.nl/fcgi-bin/iipsrv.fcgi?IIIF=/manifestation/viewer/14/18/37/141837922644606070037154788447642033909.jp2",
+    "scaleFactor": 16.08984375,
+    "x": 2560,
+    "y": 3711,
+    "width": 512,
+    "height": 409,
+    "spriteTileScale": 2
+  },
+  {
+    "imageId": "https://objects.library.uu.nl/fcgi-bin/iipsrv.fcgi?IIIF=/manifestation/viewer/16/58/83/165883494669686962563779717903725599849.jp2",
+    "scaleFactor": 16.060546875,
+    "x": 3072,
+    "y": 3711,
+    "width": 512,
+    "height": 409,
+    "spriteTileScale": 2
+  },
+  {
+    "imageId": "https://objects.library.uu.nl/fcgi-bin/iipsrv.fcgi?IIIF=/manifestation/viewer/98/66/34/98663416906404311706666628674747187288.jp2",
+    "scaleFactor": 16.12890625,
+    "x": 3584,
+    "y": 3711,
+    "width": 512,
+    "height": 409,
+    "spriteTileScale": 2
+  },
+  {
+    "imageId": "https://objects.library.uu.nl/fcgi-bin/iipsrv.fcgi?IIIF=/manifestation/viewer/14/03/89/140389367360614539021596023950821243106.jp2",
+    "scaleFactor": 16.046875,
+    "x": 4096,
+    "y": 3711,
+    "width": 512,
+    "height": 409,
+    "spriteTileScale": 2
+  },
+  {
+    "imageId": "https://objects.library.uu.nl/fcgi-bin/iipsrv.fcgi?IIIF=/manifestation/viewer/66/44/61/66446178294476597419775454322325382796.jp2",
+    "scaleFactor": 16.140900195694716,
+    "x": 4608,
+    "y": 3711,
+    "width": 511,
+    "height": 409,
+    "spriteTileScale": 2
+  },
+  {
+    "imageId": "https://objects.library.uu.nl/fcgi-bin/iipsrv.fcgi?IIIF=/manifestation/viewer/14/79/23/147923046437383602114527994094051781577.jp2",
+    "scaleFactor": 16.115234375,
+    "x": 5119,
+    "y": 3711,
+    "width": 512,
+    "height": 409,
+    "spriteTileScale": 2
+  },
+  {
+    "imageId": "https://objects.library.uu.nl/fcgi-bin/iipsrv.fcgi?IIIF=/manifestation/viewer/10/29/19/102919035275903940723173476979945597177.jp2",
+    "scaleFactor": 16.0880626223092,
+    "x": 5631,
+    "y": 3711,
+    "width": 511,
+    "height": 409,
+    "spriteTileScale": 2
+  },
+  {
+    "imageId": "https://objects.library.uu.nl/fcgi-bin/iipsrv.fcgi?IIIF=/manifestation/viewer/38/01/93/38019364511749924644472843104304927007.jp2",
+    "scaleFactor": 16.080078125,
+    "x": 0,
+    "y": 4120,
+    "width": 512,
+    "height": 409,
+    "spriteTileScale": 2
+  },
+  {
+    "imageId": "https://objects.library.uu.nl/fcgi-bin/iipsrv.fcgi?IIIF=/manifestation/viewer/38/56/07/38560726660603871711526076788999168515.jp2",
+    "scaleFactor": 16.19140625,
+    "x": 512,
+    "y": 4120,
+    "width": 512,
+    "height": 409,
+    "spriteTileScale": 2
+  },
+  {
+    "imageId": "https://objects.library.uu.nl/fcgi-bin/iipsrv.fcgi?IIIF=/manifestation/viewer/31/75/75/31757569782847476162416660616917646215.jp2",
+    "scaleFactor": 16.142578125,
+    "x": 1024,
+    "y": 4120,
+    "width": 512,
+    "height": 409,
+    "spriteTileScale": 2
+  },
+  {
+    "imageId": "https://objects.library.uu.nl/fcgi-bin/iipsrv.fcgi?IIIF=/manifestation/viewer/33/05/02/33050228920828509380509407182876887071.jp2",
+    "scaleFactor": 16.115234375,
+    "x": 1536,
+    "y": 4120,
+    "width": 512,
+    "height": 409,
+    "spriteTileScale": 2
+  },
+  {
+    "imageId": "https://objects.library.uu.nl/fcgi-bin/iipsrv.fcgi?IIIF=/manifestation/viewer/32/96/41/32964168258766747140032178457326057656.jp2",
+    "scaleFactor": 16.048828125,
+    "x": 2048,
+    "y": 4120,
+    "width": 512,
+    "height": 409,
+    "spriteTileScale": 2
+  },
+  {
+    "imageId": "https://objects.library.uu.nl/fcgi-bin/iipsrv.fcgi?IIIF=/manifestation/viewer/22/95/04/2295041191639296840110436094346046068.jp2",
+    "scaleFactor": 16.12890625,
+    "x": 2560,
+    "y": 4120,
+    "width": 512,
+    "height": 409,
+    "spriteTileScale": 2
+  },
+  {
+    "imageId": "https://objects.library.uu.nl/fcgi-bin/iipsrv.fcgi?IIIF=/manifestation/viewer/70/34/38/70343859149063548895213877791596456330.jp2",
+    "scaleFactor": 16.126953125,
+    "x": 3072,
+    "y": 4120,
+    "width": 512,
+    "height": 409,
+    "spriteTileScale": 2
+  },
+  {
+    "imageId": "https://objects.library.uu.nl/fcgi-bin/iipsrv.fcgi?IIIF=/manifestation/viewer/49/90/10/49901094675704135169824480203180606189.jp2",
+    "scaleFactor": 15.994140625,
+    "x": 3584,
+    "y": 4120,
+    "width": 512,
+    "height": 409,
+    "spriteTileScale": 2
+  },
+  {
+    "imageId": "https://objects.library.uu.nl/fcgi-bin/iipsrv.fcgi?IIIF=/manifestation/viewer/94/58/74/94587408959511699696455125178172906119.jp2",
+    "scaleFactor": 16.05078125,
+    "x": 4096,
+    "y": 4120,
+    "width": 512,
+    "height": 409,
+    "spriteTileScale": 2
+  },
+  {
+    "imageId": "https://objects.library.uu.nl/fcgi-bin/iipsrv.fcgi?IIIF=/manifestation/viewer/10/60/09/106009793774176616653142788434200400550.jp2",
+    "scaleFactor": 16.0859375,
+    "x": 4608,
+    "y": 4120,
+    "width": 512,
+    "height": 409,
+    "spriteTileScale": 2
+  },
+  {
+    "imageId": "https://objects.library.uu.nl/fcgi-bin/iipsrv.fcgi?IIIF=/manifestation/viewer/20/33/42/20334293737329335183221547919308883638.jp2",
+    "scaleFactor": 16.12890625,
+    "x": 5120,
+    "y": 4120,
+    "width": 512,
+    "height": 408,
+    "spriteTileScale": 2
+  },
+  {
+    "imageId": "https://objects.library.uu.nl/fcgi-bin/iipsrv.fcgi?IIIF=/manifestation/viewer/48/64/95/48649563976249495208311392177788093404.jp2",
+    "scaleFactor": 16.16796875,
+    "x": 5632,
+    "y": 4120,
+    "width": 512,
+    "height": 408,
+    "spriteTileScale": 2
+  },
+  {
+    "imageId": "https://objects.library.uu.nl/fcgi-bin/iipsrv.fcgi?IIIF=/manifestation/viewer/84/32/96/84329625706188067721148491227213497617.jp2",
+    "scaleFactor": 16.021484375,
+    "x": 0,
+    "y": 4529,
+    "width": 512,
+    "height": 408,
+    "spriteTileScale": 2
+  },
+  {
+    "imageId": "https://objects.library.uu.nl/fcgi-bin/iipsrv.fcgi?IIIF=/manifestation/viewer/56/78/71/5678712754461467742347820067738612671.jp2",
+    "scaleFactor": 16.099609375,
+    "x": 512,
+    "y": 4529,
+    "width": 512,
+    "height": 408,
+    "spriteTileScale": 2
+  },
+  {
+    "imageId": "https://objects.library.uu.nl/fcgi-bin/iipsrv.fcgi?IIIF=/manifestation/viewer/96/28/88/96288818005190560268211324390159543196.jp2",
+    "scaleFactor": 16.14453125,
+    "x": 1024,
+    "y": 4529,
+    "width": 512,
+    "height": 408,
+    "spriteTileScale": 2
+  },
+  {
+    "imageId": "https://objects.library.uu.nl/fcgi-bin/iipsrv.fcgi?IIIF=/manifestation/viewer/13/90/22/139022584697626414671155045974934353293.jp2",
+    "scaleFactor": 15.919765166340508,
+    "x": 1536,
+    "y": 4529,
+    "width": 511,
+    "height": 408,
+    "spriteTileScale": 2
+  },
+  {
+    "imageId": "https://objects.library.uu.nl/fcgi-bin/iipsrv.fcgi?IIIF=/manifestation/viewer/11/37/38/113738525553906000141195373212989893309.jp2",
+    "scaleFactor": 16.181640625,
+    "x": 2047,
+    "y": 4529,
+    "width": 512,
+    "height": 408,
+    "spriteTileScale": 2
+  },
+  {
+    "imageId": "https://objects.library.uu.nl/fcgi-bin/iipsrv.fcgi?IIIF=/manifestation/viewer/52/77/76/52777683093162183608053375153598396465.jp2",
+    "scaleFactor": 16.10546875,
+    "x": 2559,
+    "y": 4529,
+    "width": 512,
+    "height": 408,
+    "spriteTileScale": 2
+  },
+  {
+    "imageId": "https://objects.library.uu.nl/fcgi-bin/iipsrv.fcgi?IIIF=/manifestation/viewer/13/52/00/135200320452678981040948227654628665410.jp2",
+    "scaleFactor": 16.080078125,
+    "x": 3071,
+    "y": 4529,
+    "width": 512,
+    "height": 408,
+    "spriteTileScale": 2
+  },
+  {
+    "imageId": "https://objects.library.uu.nl/fcgi-bin/iipsrv.fcgi?IIIF=/manifestation/viewer/48/94/23/48942319456802790896899031170210657734.jp2",
+    "scaleFactor": 16.056640625,
+    "x": 3583,
+    "y": 4529,
+    "width": 512,
+    "height": 408,
+    "spriteTileScale": 2
+  },
+  {
+    "imageId": "https://objects.library.uu.nl/fcgi-bin/iipsrv.fcgi?IIIF=/manifestation/viewer/13/04/45/13044595124057955455178083841463000404.jp2",
+    "scaleFactor": 16.119373776908024,
+    "x": 4095,
+    "y": 4529,
+    "width": 511,
+    "height": 408,
+    "spriteTileScale": 2
+  },
+  {
+    "imageId": "https://objects.library.uu.nl/fcgi-bin/iipsrv.fcgi?IIIF=/manifestation/viewer/15/45/62/154562668368645193155073257363036178566.jp2",
+    "scaleFactor": 16.07421875,
+    "x": 4606,
+    "y": 4529,
+    "width": 512,
+    "height": 408,
+    "spriteTileScale": 2
+  },
+  {
+    "imageId": "https://objects.library.uu.nl/fcgi-bin/iipsrv.fcgi?IIIF=/manifestation/viewer/33/89/46/33894689368614497755779624796468019489.jp2",
+    "scaleFactor": 16.068359375,
+    "x": 5118,
+    "y": 4529,
+    "width": 512,
+    "height": 408,
+    "spriteTileScale": 2
+  },
+  {
+    "imageId": "https://objects.library.uu.nl/fcgi-bin/iipsrv.fcgi?IIIF=/manifestation/viewer/13/01/44/130144276315674391572131428145881585366.jp2",
+    "scaleFactor": 16.211350293542075,
+    "x": 5630,
+    "y": 4529,
+    "width": 511,
+    "height": 408,
+    "spriteTileScale": 2
+  },
+  {
+    "imageId": "https://objects.library.uu.nl/fcgi-bin/iipsrv.fcgi?IIIF=/manifestation/viewer/58/73/82/58738243789760679879909106201135141392.jp2",
+    "scaleFactor": 16.08203125,
+    "x": 0,
+    "y": 4937,
+    "width": 512,
+    "height": 408,
+    "spriteTileScale": 2
+  },
+  {
+    "imageId": "https://objects.library.uu.nl/fcgi-bin/iipsrv.fcgi?IIIF=/manifestation/viewer/12/40/76/124076538752757781679272979786752961192.jp2",
+    "scaleFactor": 16.064453125,
+    "x": 512,
+    "y": 4937,
+    "width": 512,
+    "height": 408,
+    "spriteTileScale": 2
+  },
+  {
+    "imageId": "https://objects.library.uu.nl/fcgi-bin/iipsrv.fcgi?IIIF=/manifestation/viewer/71/55/85/71558531920619312226836243046136864337.jp2",
+    "scaleFactor": 16.001956947162427,
+    "x": 1024,
+    "y": 4937,
+    "width": 511,
+    "height": 408,
+    "spriteTileScale": 2
+  },
+  {
+    "imageId": "https://objects.library.uu.nl/fcgi-bin/iipsrv.fcgi?IIIF=/manifestation/viewer/39/41/84/39418412787520120973677555267545860830.jp2",
+    "scaleFactor": 16.009765625,
+    "x": 1535,
+    "y": 4937,
+    "width": 512,
+    "height": 408,
+    "spriteTileScale": 2
+  },
+  {
+    "imageId": "https://objects.library.uu.nl/fcgi-bin/iipsrv.fcgi?IIIF=/manifestation/viewer/67/77/73/67777357379041278703739688491003310145.jp2",
+    "scaleFactor": 16.048828125,
+    "x": 2047,
+    "y": 4937,
+    "width": 512,
+    "height": 408,
+    "spriteTileScale": 2
+  },
+  {
+    "imageId": "https://objects.library.uu.nl/fcgi-bin/iipsrv.fcgi?IIIF=/manifestation/viewer/11/78/59/117859475574399477605423336185592446860.jp2",
+    "scaleFactor": 16.099609375,
+    "x": 2559,
+    "y": 4937,
+    "width": 512,
+    "height": 408,
+    "spriteTileScale": 2
+  },
+  {
+    "imageId": "https://objects.library.uu.nl/fcgi-bin/iipsrv.fcgi?IIIF=/manifestation/viewer/15/28/85/152885880390549404613045994587701168149.jp2",
+    "scaleFactor": 16.16796875,
+    "x": 3071,
+    "y": 4937,
+    "width": 512,
+    "height": 407,
+    "spriteTileScale": 2
+  },
+  {
+    "imageId": "https://objects.library.uu.nl/fcgi-bin/iipsrv.fcgi?IIIF=/manifestation/viewer/10/98/53/10985320817773156817511228431202452708.jp2",
+    "scaleFactor": 16.1328125,
+    "x": 3583,
+    "y": 4937,
+    "width": 512,
+    "height": 407,
+    "spriteTileScale": 2
+  },
+  {
+    "imageId": "https://objects.library.uu.nl/fcgi-bin/iipsrv.fcgi?IIIF=/manifestation/viewer/16/28/25/162825011081841923454964461895074796492.jp2",
+    "scaleFactor": 16.021526418786692,
+    "x": 4095,
+    "y": 4937,
+    "width": 511,
+    "height": 407,
+    "spriteTileScale": 2
+  },
+  {
+    "imageId": "https://objects.library.uu.nl/fcgi-bin/iipsrv.fcgi?IIIF=/manifestation/viewer/27/73/48/27734850088907029596072001181819342473.jp2",
+    "scaleFactor": 16.025440313111545,
+    "x": 4606,
+    "y": 4937,
+    "width": 511,
+    "height": 407,
+    "spriteTileScale": 2
+  },
+  {
+    "imageId": "https://objects.library.uu.nl/fcgi-bin/iipsrv.fcgi?IIIF=/manifestation/viewer/28/75/93/28759368742085097206289981242981487138.jp2",
+    "scaleFactor": 16.095703125,
+    "x": 5117,
+    "y": 4937,
+    "width": 512,
+    "height": 407,
+    "spriteTileScale": 2
+  },
+  {
+    "imageId": "https://objects.library.uu.nl/fcgi-bin/iipsrv.fcgi?IIIF=/manifestation/viewer/45/25/55/45255566165310097334247709834717240109.jp2",
+    "scaleFactor": 16.197265625,
+    "x": 5629,
+    "y": 4937,
+    "width": 512,
+    "height": 407,
+    "spriteTileScale": 2
+  },
+  {
+    "imageId": "https://objects.library.uu.nl/fcgi-bin/iipsrv.fcgi?IIIF=/manifestation/viewer/69/79/51/69795104752955868239210229581999981229.jp2",
+    "scaleFactor": 16.109375,
+    "x": 0,
+    "y": 5345,
+    "width": 512,
+    "height": 407,
+    "spriteTileScale": 2
+  },
+  {
+    "imageId": "https://objects.library.uu.nl/fcgi-bin/iipsrv.fcgi?IIIF=/manifestation/viewer/14/55/28/145528298705077172057354793242860653572.jp2",
+    "scaleFactor": 16.0390625,
+    "x": 512,
+    "y": 5345,
+    "width": 512,
+    "height": 407,
+    "spriteTileScale": 2
+  },
+  {
+    "imageId": "https://objects.library.uu.nl/fcgi-bin/iipsrv.fcgi?IIIF=/manifestation/viewer/16/81/04/168104094577853120704149984245420252051.jp2",
+    "scaleFactor": 16.146771037181995,
+    "x": 1024,
+    "y": 5345,
+    "width": 511,
+    "height": 407,
+    "spriteTileScale": 2
+  },
+  {
+    "imageId": "https://objects.library.uu.nl/fcgi-bin/iipsrv.fcgi?IIIF=/manifestation/viewer/95/69/65/95696592946992674484920535294330211104.jp2",
+    "scaleFactor": 16.015625,
+    "x": 1535,
+    "y": 5345,
+    "width": 512,
+    "height": 407,
+    "spriteTileScale": 2
+  },
+  {
+    "imageId": "https://objects.library.uu.nl/fcgi-bin/iipsrv.fcgi?IIIF=/manifestation/viewer/75/41/39/75413953734623621597150856646160842740.jp2",
+    "scaleFactor": 16.1796875,
+    "x": 2047,
+    "y": 5345,
+    "width": 512,
+    "height": 407,
+    "spriteTileScale": 2
+  },
+  {
+    "imageId": "https://objects.library.uu.nl/fcgi-bin/iipsrv.fcgi?IIIF=/manifestation/viewer/15/59/50/155950298192156378087218243028686508471.jp2",
+    "scaleFactor": 16.029296875,
+    "x": 2559,
+    "y": 5345,
+    "width": 512,
+    "height": 407,
+    "spriteTileScale": 2
+  },
+  {
+    "imageId": "https://objects.library.uu.nl/fcgi-bin/iipsrv.fcgi?IIIF=/manifestation/viewer/60/83/71/60837169564596919901435219189053695756.jp2",
+    "scaleFactor": 16.16015625,
+    "x": 3071,
+    "y": 5345,
+    "width": 512,
+    "height": 407,
+    "spriteTileScale": 2
+  },
+  {
+    "imageId": "https://objects.library.uu.nl/fcgi-bin/iipsrv.fcgi?IIIF=/manifestation/viewer/92/73/63/92736374947175097705753394993101023358.jp2",
+    "scaleFactor": 16.119140625,
+    "x": 3583,
+    "y": 5345,
+    "width": 512,
+    "height": 406,
+    "spriteTileScale": 2
+  },
+  {
+    "imageId": "https://objects.library.uu.nl/fcgi-bin/iipsrv.fcgi?IIIF=/manifestation/viewer/67/72/36/67723698907513228790550309039315420860.jp2",
+    "scaleFactor": 16.06640625,
+    "x": 4095,
+    "y": 5345,
+    "width": 512,
+    "height": 406,
+    "spriteTileScale": 2
+  },
+  {
+    "imageId": "https://objects.library.uu.nl/fcgi-bin/iipsrv.fcgi?IIIF=/manifestation/viewer/41/59/05/41590510068298091685938827683708062630.jp2",
+    "scaleFactor": 16.091796875,
+    "x": 4607,
+    "y": 5345,
+    "width": 512,
+    "height": 406,
+    "spriteTileScale": 2
+  },
+  {
+    "imageId": "https://objects.library.uu.nl/fcgi-bin/iipsrv.fcgi?IIIF=/manifestation/viewer/78/89/35/78893545531014167059262639715881335351.jp2",
+    "scaleFactor": 16.046875,
+    "x": 5119,
+    "y": 5345,
+    "width": 512,
+    "height": 406,
+    "spriteTileScale": 2
+  },
+  {
+    "imageId": "https://objects.library.uu.nl/fcgi-bin/iipsrv.fcgi?IIIF=/manifestation/viewer/55/84/59/55845998939850138261636208522120099280.jp2",
+    "scaleFactor": 15.85546875,
+    "x": 5631,
+    "y": 5345,
+    "width": 512,
+    "height": 406,
+    "spriteTileScale": 2
+  },
+  {
+    "imageId": "https://objects.library.uu.nl/fcgi-bin/iipsrv.fcgi?IIIF=/manifestation/viewer/81/75/04/81750401863007867846724421529710125447.jp2",
+    "scaleFactor": 16.03515625,
+    "x": 0,
+    "y": 5752,
+    "width": 512,
+    "height": 406,
+    "spriteTileScale": 2
+  },
+  {
+    "imageId": "https://objects.library.uu.nl/fcgi-bin/iipsrv.fcgi?IIIF=/manifestation/viewer/97/67/21/97672136406950625049022059607053676771.jp2",
+    "scaleFactor": 15.9453125,
+    "x": 512,
+    "y": 5752,
+    "width": 512,
+    "height": 406,
+    "spriteTileScale": 2
+  },
+  {
+    "imageId": "https://objects.library.uu.nl/fcgi-bin/iipsrv.fcgi?IIIF=/manifestation/viewer/15/37/10/153710891423049750396465494222796783740.jp2",
+    "scaleFactor": 16.1171875,
+    "x": 1024,
+    "y": 5752,
+    "width": 512,
+    "height": 406,
+    "spriteTileScale": 2
+  },
+  {
+    "imageId": "https://objects.library.uu.nl/fcgi-bin/iipsrv.fcgi?IIIF=/manifestation/viewer/10/64/94/106494563728772121457299942403742076976.jp2",
+    "scaleFactor": 16.125244618395303,
+    "x": 1536,
+    "y": 5752,
+    "width": 511,
+    "height": 405,
+    "spriteTileScale": 2
+  },
+  {
+    "imageId": "https://objects.library.uu.nl/fcgi-bin/iipsrv.fcgi?IIIF=/manifestation/viewer/98/66/21/98662183327455407458290015300999414076.jp2",
+    "scaleFactor": 16.105675146771038,
+    "x": 2047,
+    "y": 5752,
+    "width": 511,
+    "height": 405,
+    "spriteTileScale": 2
+  },
+  {
+    "imageId": "https://objects.library.uu.nl/fcgi-bin/iipsrv.fcgi?IIIF=/manifestation/viewer/14/41/83/144183346394842382028691080006289338179.jp2",
+    "scaleFactor": 16.154296875,
+    "x": 2558,
+    "y": 5752,
+    "width": 512,
+    "height": 405,
+    "spriteTileScale": 2
+  },
+  {
+    "imageId": "https://objects.library.uu.nl/fcgi-bin/iipsrv.fcgi?IIIF=/manifestation/viewer/15/47/97/154797874715253039045178872097084002575.jp2",
+    "scaleFactor": 16.078125,
+    "x": 3070,
+    "y": 5752,
+    "width": 512,
+    "height": 405,
+    "spriteTileScale": 2
+  },
+  {
+    "imageId": "https://objects.library.uu.nl/fcgi-bin/iipsrv.fcgi?IIIF=/manifestation/viewer/10/46/50/104650077889063954055247632899738912634.jp2",
+    "scaleFactor": 16.007827788649706,
+    "x": 3582,
+    "y": 5752,
+    "width": 511,
+    "height": 405,
+    "spriteTileScale": 2
+  },
+  {
+    "imageId": "https://objects.library.uu.nl/fcgi-bin/iipsrv.fcgi?IIIF=/manifestation/viewer/10/74/68/107468368824989781282218494573512651145.jp2",
+    "scaleFactor": 16.09375,
+    "x": 4093,
+    "y": 5752,
+    "width": 512,
+    "height": 405,
+    "spriteTileScale": 2
+  },
+  {
+    "imageId": "https://objects.library.uu.nl/fcgi-bin/iipsrv.fcgi?IIIF=/manifestation/viewer/32/64/73/32647312409847511821827949405896734931.jp2",
+    "scaleFactor": 16.16015625,
+    "x": 4605,
+    "y": 5752,
+    "width": 512,
+    "height": 404,
+    "spriteTileScale": 2
+  },
+  {
+    "imageId": "https://objects.library.uu.nl/fcgi-bin/iipsrv.fcgi?IIIF=/manifestation/viewer/35/75/53/3575533991110835450074419739888784156.jp2",
+    "scaleFactor": 16.05859375,
+    "x": 5117,
+    "y": 5752,
+    "width": 512,
+    "height": 404,
+    "spriteTileScale": 2
+  },
+  {
+    "imageId": "https://objects.library.uu.nl/fcgi-bin/iipsrv.fcgi?IIIF=/manifestation/viewer/11/40/52/114052531699604622936209169672287260496.jp2",
+    "scaleFactor": 16.095890410958905,
+    "x": 5629,
+    "y": 5752,
+    "width": 511,
+    "height": 403,
+    "spriteTileScale": 2
+  },
+  {
+    "imageId": "https://objects.library.uu.nl/fcgi-bin/iipsrv.fcgi?IIIF=/manifestation/viewer/44/70/60/44706091171958737594385844324977860640.jp2",
+    "scaleFactor": 16.23046875,
+    "x": 0,
+    "y": 6158,
+    "width": 512,
+    "height": 403,
+    "spriteTileScale": 2
+  },
+  {
+    "imageId": "https://objects.library.uu.nl/fcgi-bin/iipsrv.fcgi?IIIF=/manifestation/viewer/66/42/20/66422012657366574958815166204738393042.jp2",
+    "scaleFactor": 16.017578125,
+    "x": 512,
+    "y": 6158,
+    "width": 512,
+    "height": 402,
+    "spriteTileScale": 2
+  },
+  {
+    "imageId": "https://objects.library.uu.nl/fcgi-bin/iipsrv.fcgi?IIIF=/manifestation/viewer/13/52/05/135205170514034659552134740046945685996.jp2",
+    "scaleFactor": 16.068359375,
+    "x": 1024,
+    "y": 6158,
+    "width": 512,
+    "height": 402,
+    "spriteTileScale": 2
+  },
+  {
+    "imageId": "https://objects.library.uu.nl/fcgi-bin/iipsrv.fcgi?IIIF=/manifestation/viewer/13/25/85/132585391526723413534987653647112235155.jp2",
+    "scaleFactor": 16.158512720156555,
+    "x": 1536,
+    "y": 6158,
+    "width": 511,
+    "height": 401,
+    "spriteTileScale": 2
+  }
+]
