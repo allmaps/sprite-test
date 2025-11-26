@@ -119,6 +119,7 @@ const listItems = entries
     const dirName = `${entry.spriteTileScale}x`
     const spriteUrl = `./${entry.annotationsId}/${dirName}/sprites.jpg`
     const spriteInfoJson = `./${entry.annotationsId}/${dirName}/iiif/info.json`
+    const spritesJson = `./${entry.annotationsId}/${dirName}/sprites.json`
     const annotationUrl = `./${entry.annotationsId}/${dirName}/annotation.json`
 
     return `      <li>
@@ -139,6 +140,7 @@ const listItems = entries
         Sprite:
         <a href="${spriteUrl}">Image</a> |
         <a href="${spriteInfoJson}">info.json</a> |
+        <a href="${spritesJson}">sprites.json</a> |
         <a href="${annotationUrl}">Georeference Annotation</a> |
         <a href="https://viewer.allmaps.org/?url=${encodeURIComponent(
           `https://pages.allmaps.org/sprite-test/${annotationUrl}`
