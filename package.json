@@ -14,6 +14,7 @@
   "dependencies": {
     "@allmaps/annotation": "1.0.0-beta.35",
     "@allmaps/id": "1.0.0-beta.35",
+    "@allmaps/iiif-parser": "1.0.0-beta.47",
     "mkdirp": "^3.0.1",
     "potpack": "^2.1.0",
     "sharp": "^0.34.3"

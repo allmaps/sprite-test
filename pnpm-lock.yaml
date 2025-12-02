@@ -15,8 +15,8 @@ importers:
         specifier: 1.0.0-beta.35
         version: 1.0.0-beta.35
       '@allmaps/iiif-parser':
-        specifier: 1.0.0-beta.45
-        version: 1.0.0-beta.45
+        specifier: 1.0.0-beta.47
+        version: 1.0.0-beta.47
       mkdirp:
         specifier: ^3.0.1
         version: 3.0.1
@@ -40,8 +40,8 @@ packages:
     resolution: {integrity: sha512-W9FEN46XGkBnquAk0thMgAUj1KTKwLGxqXXlpekcZnE29rNmWZBHMd3SD0FIrJvfjKNpLikH3gnTb8rv20bOWg==}
     engines: {node: '>=v19.0.0'}
 
-  '@allmaps/iiif-parser@1.0.0-beta.45':
-    resolution: {integrity: sha512-xVwfWyVFurp+of4jAYAo8tBHJlku68Os1aByz1cQVG/DosiRfFYfcEV1vsF00PmXIUBmOJyvZ97vqA6r605/Nw==}
+  '@allmaps/iiif-parser@1.0.0-beta.47':
+    resolution: {integrity: sha512-GG9Oz2MIzdB4B8x/t2UuNx1Lc0Im7oHnGZoFLjNUeSuzq53m1/wLTEgvxQKabH4JVUMSXlPVZHc7BzO+eE7r0Q==}
 
   '@emnapi/runtime@1.4.5':
     resolution: {integrity: sha512-++LApOtY0pEEz1zrd9vy1/zXVaVJJ/EbAF3u0fXIzPJEDtnITsBGbbK0EkM72amhl/R5b+5xx0Y/QhcVOpuulg==}
@@ -229,7 +229,7 @@ snapshots:
 
   '@allmaps/id@1.0.0-beta.35': {}
 
-  '@allmaps/iiif-parser@1.0.0-beta.45':
+  '@allmaps/iiif-parser@1.0.0-beta.47':
     dependencies:
       zod: 3.25.76
 
